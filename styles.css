@@ -1,0 +1,497 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbar-pinterest {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 14px;
+    
+} 
+a {
+    display: flex;
+    place-self: center;
+}
+#pinterest-icon {
+
+width: 25px;
+height: auto;
+margin-left: 20px;
+}
+.nav--input {
+    display: flex;
+    flex-direction: row;
+    width: 82vw;
+    height: 43px;
+    background: rgb(235, 232, 232);
+    border-radius: 45px;
+}
+.nav--input_lupa {
+background-image: url(./assets/lupa.svg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+width: 15px;
+height: auto;
+margin-left: 20px;
+margin-right: 10px;
+}
+nav input {
+   
+    background: none;
+    width: 50vw;
+    height: auto;
+    border-style: none;
+    font-size: 1.4rem;
+    outline: 0;
+}
+.nav--bell {
+    display: flex;
+    flex-direction: row;
+    width: 20px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.nav--bell span{
+    background-image: url(./assets/bell.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 40px;
+}
+.nav--bell div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: red;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.nav--message {
+    background-image: url(./assets/logo\ mensajes.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+}
+.nav--user {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    background: rgb(235, 232, 232);
+    padding: 2px;
+    border-radius: 50%;
+    
+}
+.nav--arrow {
+    background-image: url(./assets/flecha.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 10px;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    
+}
+.container {
+    display: grid;
+    width: 90vw;
+    grid-template-columns: repeat(autofit, minmax(180px, 1fr));
+    grid-auto-rows: max-content;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.one {
+    display: grid;
+    border-radius: 20px;
+    grid-column: 1/2;
+    grid-row: 1/10;
+    font-size: 1.3rem;
+}
+
+.two {
+    display: grid;
+    border-radius: 20px;
+    grid-column: 2/3;
+    grid-row: 1/15;
+    background-image: url(./assets/Abstract\ Rain.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.three {
+    display: grid;
+    background-image: url(./assets/Adidas.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 1/19;
+    border-radius: 20px;
+    z-index: 4;
+}
+
+.four {
+    
+    display: grid;
+    background-image: url(./assets/Adidas\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 1/29;
+    border-radius: 20px;
+}
+.five {
+    display: grid;
+    background-image: url(./assets/b006b1ad-1cf4-4614-aa71-2e2be454b2d4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 1/19;
+    border-radius: 20px;
+}
+.six {
+    display: grid;
+    background-image: url(./assets/Back\ to\ new\ week!\ Let’s\ give\ it\ 💯\ with\ a\ bit\ of\ caffeine\ and\ music\ 🎵.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 1/19;
+    border-radius: 20px;
+}
+.seven {
+    display: grid;
+    background-image: url(./assets/Black\ Spider\ wallpaper\ by\ stark_sv\ -\ Download\ on\ ZEDGE™\ _\ d1a5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 10/40;
+    border-radius: 20px;
+}
+.eight {
+    display: grid;
+    background-image: url(./assets/Black\ wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 15/45;
+    border-radius: 20px;
+}
+.nine {
+    display: grid;
+    background-image: url(./assets/Captain\ America.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 19/49;
+    border-radius: 20px;
+}
+.ten {
+    display: grid;
+    background-image: url(./assets/Captain\ America\ wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 19/40;
+    border-radius: 20px;
+}
+.eleven {
+    display: grid;
+    background-image: url(./assets/Captain\ America\ wallpaper\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 19/48;
+    border-radius: 20px;
+}
+.twelve {
+    display: grid;
+    background-image: url(./assets/descarga\ \(10\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 40/70;
+    border-radius: 20px;
+}
+
+.thirteen {
+    display: grid;
+    background-image: url(./assets/descarga\ \(11\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 45/75;
+    border-radius: 20px;
+}
+.fourteen {
+    display: grid;
+    background-image: url(./assets/descarga\ \(12\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 29/82;
+    border-radius: 20px;
+}
+.fifteen {
+    display: grid;
+    background-image: url(./assets/descarga\ \(13\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 50/75;
+    border-radius: 20px;
+}
+.sixteen {
+    display: grid;
+    background-image: url(./assets/descarga\ \(14\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 40/64;
+    border-radius: 20px;
+}
+.seventeen {
+    display: grid;
+    background-image: url(./assets/descarga\ \(15\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 48/85;
+    border-radius: 20px;
+}
+.eightteen {
+    display: grid;
+    background-image: url(./assets/descarga\ \(16\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 70/90;
+    border-radius: 20px;
+}
+
+.nineteen {
+    display: grid;
+    background-image: url(./assets/descarga\ \(5\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 75/110;
+    border-radius: 20px;
+}
+.twenty {
+    display: grid;
+    background-image: url(./assets/descarga\ \(6\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 75/114;
+    border-radius: 20px;
+}
+.twenty-one {
+    display: grid;
+    background-image: url(./assets/descarga\ \(7\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 82/105;
+    border-radius: 20px;
+}
+
+.twenty-two {
+    display: grid;
+    background-image: url(./assets/descarga\ \(8\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 64/105;
+    border-radius: 20px;
+}
+.twenty-three {
+    display: grid;
+    background-image: url(./assets/descarga\ \(9\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 85/131;
+    border-radius: 20px;
+}
+.twenty-four {
+    display: grid;
+    background-image: url(./assets/desktop-wallpaper-captain-america-shield.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 90/131;
+    border-radius: 20px;
+}
+.twenty-five {
+    display: grid;
+    background-image: url(./assets/Goku\ 💣.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 110/140;
+    border-radius: 20px;
+}
+.twenty-six {
+    display: grid;
+    background-image: url(./assets/Mazinger\ Z.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 114/140;
+    border-radius: 20px;
+}
+.twenty-seven {
+    display: grid;
+    background-image: url(./assets/Metal\ Poster\ Daily\ Reporter.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 105/140;
+    border-radius: 20px;
+}
+.twenty-eight {
+    display: grid;
+    background-image: url(./assets/MuchaTseBle.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 105/140;
+    border-radius: 20px;
+}
+.twenty-nine {
+    display: grid;
+    background-image: url(./assets/My\ Anime\ For\ Life.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 131/157;
+    border-radius: 20px;
+}
+.thirty {
+    display: grid;
+    background-image: url(./assets/W\ toad.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 140/180;
+    border-radius: 20px;
+}
+.thirty-one {
+    display: grid;
+    background-image: url(./assets/صور\ شعار\ ريال\ مدريد\ جاهزة\ للتحميل.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 140/180;
+    border-radius: 20px;
+}
+.thirty-two {
+    display: grid;
+    background-image: url(./assets/Nike.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 140/180;
+    border-radius: 20px;
+}
+.thirty-three {
+    display: grid;
+    background-image: url(./assets/descarga\ \(32\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 140/180;
+    border-radius: 20px;
+}
+.thirty-four {
+    display: grid;
+    background-image: url(./assets/Cientos\ de\ Fondos\ de\ Pantalla\ para\ tu\ SmartPhone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-row: 131/180;
+    border-radius: 20px;
+}
+.oculto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    position: relative;
+    align-items: end;
+    opacity: 0;
+
+}
+.oculto div:nth-child(1) {
+    display: flex;
+    width: 45px;
+    height: 25px    ;
+    background: red;
+    border-radius: 10px;
+    justify-self: end;
+    justify-content: center;
+}
+.oculto--top p {
+    display: flex;
+    place-self: center;
+    
+}
+.oculto--bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+.oculto--bottom figure img {
+    width: 30px;
+    height: auto;
+    
+}
+.card-image:hover {
+    cursor: zoom-in;
+    filter: brightness(0.5);
+    
+
+    
+}
+.oculto:hover {
+    opacity: 1;
+}
+.oculto--top p:hover, .oculto--bottom figure img:hover {
+    cursor: pointer;
+    
+}
+.one:hover {
+    display: grid;
+    border-radius: 20px;
+    grid-column: 1/2;
+    grid-row: 1/10;
+    font-size: 1.3rem;
+}
