@@ -119,329 +119,256 @@ nav input {
 .container {
     display: grid;
     width: 90vw;
-    grid-template-columns: repeat(autofit, minmax(180px, 1fr));
-    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 250px));
     gap: 10px;
     margin-top: 30px;
+    justify-content: center;
 }
-
-.one {
-    display: grid;
-    border-radius: 20px;
-    grid-column: 1/2;
-    grid-row: 1/10;
-    font-size: 1.3rem;
+.card-image {
+    border-radius: 10px;
+    border: 1px transparent black;
 }
 
 .two {
-    display: grid;
-    border-radius: 20px;
-    grid-column: 2/3;
-    grid-row: 1/15;
-    background-image: url(./assets/Abstract\ Rain.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/c4/8c/ec/c48cec012bccf0c815c1f3044fad2c4d.jpg");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
 
 }
 .three {
-    display: grid;
-    background-image: url(./assets/Adidas.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/9e/5e/a1/9e5ea1393315ea08cbd4f53e5ea09542.jpg");
     background-size: cover;
-    grid-row: 1/19;
-    border-radius: 20px;
-    z-index: 4;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 180px;
 }
-
 .four {
-    
-    display: grid;
-    background-image: url(./assets/Adidas\ \(1\).jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/06/2c/e1/062ce1163eaba006cd7f69e87387d832.jpg");
     background-size: cover;
-    grid-row: 1/29;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 210px;
 }
 .five {
-    display: grid;
-    background-image: url(./assets/b006b1ad-1cf4-4614-aa71-2e2be454b2d4.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/24/cd/4e/24cd4e58c5dedc3855060bc9f3c61390.jpg");
     background-size: cover;
-    grid-row: 1/19;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 220px;
 }
 .six {
-    display: grid;
-    background-image: url(./assets/Back\ to\ new\ week!\ Let’s\ give\ it\ 💯\ with\ a\ bit\ of\ caffeine\ and\ music\ 🎵.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/bd/5b/1b/bd5b1b7efc8a39fa10558dc16ab8590e.jpg");
     background-size: cover;
-    grid-row: 1/19;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
 }
 .seven {
-    display: grid;
-    background-image: url(./assets/Black\ Spider\ wallpaper\ by\ stark_sv\ -\ Download\ on\ ZEDGE™\ _\ d1a5.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/73/47/5d/73475d1376a1e4174060810f4e3d319a.jpg");
     background-size: cover;
-    grid-row: 10/40;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
 }
 .eight {
-    display: grid;
-    background-image: url(./assets/Black\ wallpaper.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/7e/17/c9/7e17c95423553525f6601412c8613a99.jpg");
     background-size: cover;
-    grid-row: 15/45;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 240px;
 }
 .nine {
-    display: grid;
-    background-image: url(./assets/Captain\ America.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/b4/03/7b/b4037b836054259dde8b28fdb48a3c41.jpg");
     background-size: cover;
-    grid-row: 19/49;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 280px;
 }
 .ten {
-    display: grid;
-    background-image: url(./assets/Captain\ America\ wallpaper.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/35/ea/fc/35eafc306a38cc1a99364739cf881c94.jpg");
     background-size: cover;
-    grid-row: 19/40;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120px;
 }
 .eleven {
-    display: grid;
-    background-image: url(./assets/Captain\ America\ wallpaper\ \(1\).jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/4b/9a/35/4b9a355bb24f83b3da199b81eb9e06a2.jpg");
     background-size: cover;
-    grid-row: 19/48;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+
 }
 .twelve {
-    display: grid;
-    background-image: url(./assets/descarga\ \(10\).jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/d4/b1/32/d4b13252195d65e9e60faeee7118c121.jpg");
     background-size: cover;
-    grid-row: 40/70;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 180px;
 }
-
 .thirteen {
-    display: grid;
-    background-image: url(./assets/descarga\ \(11\).jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/0b/ee/87/0bee87669ca2531a7d18a2e60f483654.jpg");
     background-size: cover;
-    grid-row: 45/75;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 210px;
 }
 .fourteen {
-    display: grid;
-    background-image: url(./assets/descarga\ \(12\).jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/55/b2/c4/55b2c43bccb7a0444281d221107d1c3d.jpg");
     background-size: cover;
-    grid-row: 29/82;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 220px;
 }
 .fifteen {
-    display: grid;
-    background-image: url(./assets/descarga\ \(13\).jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/b3/86/77/b38677f1487b0e7255e9d49ea8f0449e.jpg");
     background-size: cover;
-    grid-row: 50/75;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
 }
 .sixteen {
-    display: grid;
-    background-image: url(./assets/descarga\ \(14\).jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/18/1c/32/181c326b5a014bced1df71120e81eb1d.jpg");
     background-size: cover;
-    grid-row: 40/64;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
 }
 .seventeen {
-    display: grid;
-    background-image: url(./assets/descarga\ \(15\).jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/65/35/6f/65356f32c6ef771be4769fdf07729040.jpg");
     background-size: cover;
-    grid-row: 48/85;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 240px;
 }
 .eightteen {
-    display: grid;
-    background-image: url(./assets/descarga\ \(16\).jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/7b/e6/b2/7be6b26160db6ca842ac0b754976b52f.jpg");
     background-size: cover;
-    grid-row: 70/90;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 280px;
 }
-
 .nineteen {
-    display: grid;
-    background-image: url(./assets/descarga\ \(5\).jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/34/d9/e2/34d9e2099232733cb257595735786398.jpg");
     background-size: cover;
-    grid-row: 75/110;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120px;
 }
 .twenty {
-    display: grid;
-    background-image: url(./assets/descarga\ \(6\).jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/ee/56/f0/ee56f06173fcdb5b671a6bc0d103f6f3.jpg");
     background-size: cover;
-    grid-row: 75/114;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+
 }
 .twenty-one {
-    display: grid;
-    background-image: url(./assets/descarga\ \(7\).jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/3b/bf/75/3bbf7567d5c57996c3e59c50d75dec40.jpg");
     background-size: cover;
-    grid-row: 82/105;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 180px;
 }
-
 .twenty-two {
-    display: grid;
-    background-image: url(./assets/descarga\ \(8\).jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/7c/0d/c7/7c0dc71fee66f72f35f205a6d534498c.jpg");
     background-size: cover;
-    grid-row: 64/105;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 210px;
 }
 .twenty-three {
-    display: grid;
-    background-image: url(./assets/descarga\ \(9\).jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/2d/f3/6d/2df36d5aa9f70598985c104e315c483b.jpg");
     background-size: cover;
-    grid-row: 85/131;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 220px;
 }
 .twenty-four {
-    display: grid;
-    background-image: url(./assets/desktop-wallpaper-captain-america-shield.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/dd/af/2d/ddaf2d52b985ae46c6f6ea194e155303.jpg");
     background-size: cover;
-    grid-row: 90/131;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
 }
 .twenty-five {
-    display: grid;
-    background-image: url(./assets/Goku\ 💣.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/c2/5b/95/c25b955741dfae646f5127e0b0f6d74a.jpg");
     background-size: cover;
-    grid-row: 110/140;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
 }
 .twenty-six {
-    display: grid;
-    background-image: url(./assets/Mazinger\ Z.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/e9/ec/a5/e9eca54574a73dcbca62795441145063.jpg");
     background-size: cover;
-    grid-row: 114/140;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 240px;
 }
 .twenty-seven {
-    display: grid;
-    background-image: url(./assets/Metal\ Poster\ Daily\ Reporter.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/05/1f/56/051f56cf29519e333159187719fef48b.jpg");
     background-size: cover;
-    grid-row: 105/140;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 280px;
 }
 .twenty-eight {
-    display: grid;
-    background-image: url(./assets/MuchaTseBle.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/3a/83/ef/3a83efa2e885ead8b8d64db9f4016d8b.jpg");
     background-size: cover;
-    grid-row: 105/140;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120px;
 }
 .twenty-nine {
-    display: grid;
-    background-image: url(./assets/My\ Anime\ For\ Life.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/97/cd/c7/97cdc71e5baf6aaa0d8bd015e215f0ba.jpg");
     background-size: cover;
-    grid-row: 131/157;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 220px;
 }
 .thirty {
-    display: grid;
-    background-image: url(./assets/W\ toad.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/3e/e3/40/3ee3404c7a58390b58920c32871561d7.jpg");
     background-size: cover;
-    grid-row: 140/180;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
 }
 .thirty-one {
-    display: grid;
-    background-image: url(./assets/صور\ شعار\ ريال\ مدريد\ جاهزة\ للتحميل.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/71/40/30/714030d57ce3b8508560a45f87aafc82.jpg");
     background-size: cover;
-    grid-row: 140/180;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
 }
 .thirty-two {
-    display: grid;
-    background-image: url(./assets/Nike.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/474x/90/6e/dd/906edd9be8d38f04af615a30e4b82a12.jpg");
     background-size: cover;
-    grid-row: 140/180;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 240px;
 }
 .thirty-three {
-    display: grid;
-    background-image: url(./assets/descarga\ \(32\).jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/f3/3f/7f/f33f7fc07e5b5f7c519c1e444d88a18b.jpg");
     background-size: cover;
-    grid-row: 140/180;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 280px;
 }
 .thirty-four {
-    display: grid;
-    background-image: url(./assets/Cientos\ de\ Fondos\ de\ Pantalla\ para\ tu\ SmartPhone.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://i.pinimg.com/236x/d1/94/5f/d1945fae2da2fb95626a0a6f6a940692.jpg");
     background-size: cover;
-    grid-row: 131/180;
-    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120px;
 }
+
 .oculto {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 100%;
     padding: 10px;
     color: white;
     position: relative;
@@ -495,3 +422,291 @@ nav input {
     grid-row: 1/10;
     font-size: 1.3rem;
 }
+@media screen and (max-width:559px) {
+    .nav--input {
+        width: 45vw ;
+    }
+    #navbar-pinterest {
+        gap: 10px;
+    }
+}
+@media screen and (min-width:560px) {
+   
+    .six {
+        grid-row: 3/5;
+        height: auto;
+    }
+    .ten {
+        grid-row: 6/8;
+        grid-column: 2;
+        height: auto;
+    }
+    .ten {
+        grid-row: 8/10;
+        grid-column: 2;
+        height: auto;
+    }
+    .twenty-three {
+        grid-row: 13/16;
+        grid-column: 1;
+        height: auto;
+    }
+    .twenty-seven {
+        grid-row: 16/19;
+        grid-column: 2;
+        height: auto;
+    }
+}
+
+@media screen and (min-width:860px) {
+    .four {
+        height: 300px;
+    }
+    .five {
+        height: 290px;
+    }
+    .fifteen {
+        height: 230px;
+    }
+    .twenty-four {
+        height: auto;
+    }
+    .nineteen{
+        height: auto;
+    }
+    .twenty-seven {
+        grid-row: 11/18;
+    }
+    .twenty-eight {
+        height: auto;
+    }
+    .thirty{ 
+        grid-row: 16/19;
+    grid-column: 2;
+    height: auto;
+    }
+    .thirty-four {
+        grid-row: 12/19;
+        grid-column: 3;
+        height: auto;
+    }
+}
+
+@media screen and (min-width:1148px) {
+    .two, .three, .fourteen, .fifteen {
+        height: auto;
+    }
+}
+@media screen and (min-width:1270px) {
+
+    .container {
+        display: grid;
+        width: 90vw;
+        grid-template-columns: repeat(auto-fit, minmax( 180px, 1fr));
+        grid-auto-rows: 10px;
+        gap: 10px;
+        margin-top: 30px;
+        justify-content: center;
+    }
+    .one {
+    
+        display: grid;
+        grid-row: 1/10;
+        height: auto;
+    }
+    
+    .two {
+        display: grid;
+        grid-row: 1/15;
+        height: auto;
+    }
+    .three {
+       
+        grid-row: 1/19;
+        display: grid;
+        height: auto;
+    }
+    
+    .four {
+        
+        display: grid;
+        grid-row: 1/29;
+        height: auto;
+    }
+    .five {
+        display: grid;
+        grid-row: 1/19;
+        height: auto;
+    }
+    .six {
+        display: grid;
+        grid-row: 1/39;
+        height: auto;
+    }
+    .seven {
+        display: grid;
+        grid-row: 10/40;
+        height: auto;
+    }
+    .eight {
+        display: grid;
+        grid-row: 1/45;
+        height: auto;
+    }
+    .nine {
+        display: grid;
+        grid-row: 19/49;
+        height: auto;
+    }
+    .ten {
+       
+        grid-row: 15/32;
+        height: auto;
+    }
+    .eleven {
+       
+        grid-row: 19/48;
+        height: auto;
+    }
+    .twelve {
+       
+        grid-row: 40/70;
+        height: auto;
+        display: grid;
+    }
+    
+    .thirteen {
+      
+        grid-row: 32/68;
+        height: auto;
+        display: grid;
+    }
+    .fourteen {
+       
+        grid-row: 29/82;
+        height: auto;
+        display: grid;
+    }
+    .fifteen {
+        
+        grid-row: 49/75;
+        height: auto;
+        display: grid;
+    }
+    .sixteen {
+        height: auto;
+        display: grid;
+        grid-row: 39/64;
+    }
+    .seventeen {
+    
+        grid-row: 48/85;
+        height: auto;
+        display: grid;
+    }
+    .eightteen {
+        height: auto;
+        display: grid;
+        grid-row: 68/90;
+        
+    }
+    
+    .nineteen {
+        
+        grid-row: 75/110;
+        height: auto;
+        display: grid;
+    }
+    .twenty {
+        
+        grid-row: 64/104;
+        height: auto;
+        display: grid;
+    }
+    .twenty-one {
+        
+        grid-row: 82/105;
+        height: auto;
+        display: grid;
+    }
+    
+    .twenty-two {
+        
+        grid-row: 45/75;
+        height: auto;
+        display: grid;
+    }
+    .twenty-three {
+        
+        grid-row: 70/91;
+        height: auto;
+        display: grid;
+    }
+    .twenty-four {
+        
+        grid-row: 85/121;
+        height: auto;
+        display: grid;
+    }
+    .twenty-five {
+        
+        grid-row: 75/100;
+        height: auto;
+        display: grid;
+    }
+    .twenty-six {
+        
+        grid-row: 91/140;
+        height: auto;
+        display: grid;
+    }
+    .twenty-seven {
+        
+        grid-row: 90/110;
+        height: auto;
+        display: grid;
+    }
+    .twenty-eight {
+        
+        grid-row: 105/140;
+        height: auto;
+        display: grid;
+    }
+    .twenty-nine {
+        
+        grid-row: 100/125;
+        height: auto;
+        display: grid;
+    }
+    .thirty {
+        
+        grid-row: 100/140;
+        height: auto;
+        display: grid;
+    }
+    .thirty-one {
+       
+        grid-row: 121/141;
+        height: auto;
+        display: grid;
+    }
+    .thirty-two {
+        
+        grid-row: 104/142;
+        height: auto;
+        display: grid;
+    }
+    .thirty-three {
+        
+        grid-row: 125/141;
+        height: auto;
+        display: grid;
+    }
+    .thirty-four {
+       
+        grid-row: 110/140;
+        height: auto;
+        display: grid;
+    }
+}
+
